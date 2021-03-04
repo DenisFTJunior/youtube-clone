@@ -1,0 +1,88 @@
+.containerHeader{
+    background-color: rgb(32, 32, 32);
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 8vh;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 8vh;
+    grid-template-areas: "menulogo input icons";
+    align-items: center;
+    justify-items: center;
+    z-index:1;
+}
+
+.pesquisarContainer{
+    grid-area: input;
+    justify-self: center;
+    height: 4.5vh;
+    display:flex;
+}
+.pesquisar{
+    width: 35vw;
+    height: 4.5vh;
+    margin:0;
+    background-color: rgb(33, 33, 33);
+    border: 1px solid rgb(56, 56, 56);
+    padding: 1vw;
+    color:white;
+    outline: none;
+}
+.submitPesquisar{
+    /* background-image: url(); */
+    width: 4vw;
+    height: 4.5vh;
+    min-width: 65px;
+    background-color: rgb(56, 56, 56);
+    border: none;
+}
+.pesquisar:focus{
+    border:1px solid red;
+}
+.menuLogo{
+    grid-area: menulogo;
+    justify-self: start;
+    align-self: center;
+    width: 20vw;
+    height: 8vh;
+    margin-top: 1vh;
+}
+.menuAction{
+    display:inline-block;
+    background-color: rgb(33, 33, 33);
+    width:5vh;
+    height:5vh;
+    margin-left: 1vw;
+    cursor: pointer;
+    border: none;
+}
+.logoContainer{
+    display:inline-block;
+    width: 7vw;
+    height: 8vh;
+    margin-left: 1vw;
+}
+
+.containerItems{
+    grid-area: icons;
+    align-items: center;
+    justify-content: center;
+    width: 20vw;
+    height: 8vh;
+    display:flex;
+    flex-direction:row;
+}
+
+/*icons style*/
+.item{
+    display: inline-block;
+    width:2vw;
+    margin-left: 1vw;
+    cursor: pointer;  
+}
+.textIcon{
+    display:none
+}
+

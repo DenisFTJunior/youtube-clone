@@ -1,0 +1,85 @@
+{
+    "videos":[
+        {
+        "img":"/canais/videos/video2.jpg",
+        "tittle": "Universo GoLang",
+        "channel":{
+            "name":"Rocketseat",
+            "logoSrc":"/canais/rocketseat.png"
+        },
+        "views":"23232"
+       },
+       {
+        "img":"/canais/videos/video1.jpg",
+        "tittle": "Seu blog vai me agradecer",
+        "channel":{
+            "name":"Rocketseat",
+            "logoSrc":"/canais/rocketseat.png"
+        },
+        "views":"24422"
+       },
+       {
+        "img":"/canais/videos/video3.jpg",
+        "tittle": "De Alumni a Instrutor ",
+        "channel":{
+            "name":"Rocketseat",
+            "logoSrc":"/canais/rocketseat.png"
+        },
+        "views":"2112"
+       },
+       {
+        "img":"/canais/videos/video6.jpg",
+        "tittle":"SpeedRun challange" ,
+        "channel":{
+            "name":"davie504",
+            "logoSrc":"/canais/davi504.png"
+        },
+        "views":"3232"
+       },
+       {
+        "img":"/canais/videos/video5.jpg",
+        "tittle": "Fake anime bass Girl",
+        "channel":{
+            "name":"davie504",
+            "logoSrc":"/canais/davi504.png"
+        },
+        "views":"4303"
+       },
+       {
+        "img":"/canais/videos/video6.jpg",
+        "tittle":"SpeedRun challange" ,
+        "channel":{
+            "name":"davie504",
+            "logoSrc":"/canais/davi504.png"
+        },
+        "views":"1020"
+       },
+       {
+        "img":"/canais/videos/video6.jpg",
+        "tittle":"SpeedRun challange" ,
+        "channel":{
+            "name":"x-team",
+            "logoSrc":"/canais/xteam.png"
+        },
+        "views":"420"
+       },
+       {
+        "img":"/canais/videos/video6.jpg",
+        "tittle":"SpeedRun challange" ,
+        "channel":{
+            "name":"x-team",
+            "logoSrc":"/canais/xteam.png"
+        },
+        "views":"232"
+       },
+       {
+        "img":"/canais/videos/video6.jpg",
+        "tittle":"SpeedRun challange",
+        "channel":{
+            "name":"x-team",
+            "logoSrc":"/canais/xteam.png"
+        },
+        "views":"221"
+       }
+]
+}

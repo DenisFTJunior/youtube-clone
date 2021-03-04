@@ -1,0 +1,55 @@
+.containerVideo{
+    width: 20vw;
+    height: 40vh;
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr 1fr ;
+    grid-template-areas: "img""info";
+    align-items: center;
+    justify-items: center;
+    overflow: hidden;
+  }
+
+  .imgVideo{
+    grid-area: img;
+    margin:1vw;
+    margin-bottom: 0;
+    width: 20vw;
+    height: 25vh;
+    cursor:pointer;
+  }
+  .infoVideo{
+      grid-area: info;
+      width: 20vw;
+      height:10vh;
+      margin: 0 1vw 1vw 1vw;
+      font-size: 1vw;
+  }
+  .tittleVideo{
+    color:white;
+    font-size: 1..3vw;
+    display: block;
+    cursor:pointer;
+    }
+    .channelLogo{
+      float: left;
+      width: 3vw;
+      height:3vw;
+      border-radius: 50%;
+      overflow: hidden;
+      text-align: center;
+      margin-right: 1vw;
+    }
+    .channelName{
+      color:rgb(161, 161, 161);
+      display: block;
+      cursor:pointer;
+    }
+    .viewsVideo{
+      color:rgb(161, 161, 161);
+      display: inline-block;
+    }
+    .dateAgo{
+      color:rgb(161, 161, 161);
+      display: inline-block;
+    }
